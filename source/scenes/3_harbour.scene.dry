@@ -1,0 +1,142 @@
+title: Das Teehaus finden  
+subtitle: Auf dem Weg zum Teehaus  
+
+Du erreichst den alten Hafen.
+
+Am Kai steht ein Händler vor einem klapprigen Tank und füllt Wasser in gebrauchte Flaschen.  
+
+Eine Lieferdrohne kreist über dem Wasser und sucht nach dem besten Winkel für ein Selfie.  
+
+Im Hinterland braut sich ein Staubsturm zusammen, dessen Körner dir schon jetzt im Hals kratzen.
+
+Zwischen Wasser, Staub und Drohnen musst du entscheiden, wohin du zuerst gehst.  
+
+- #harbour
+
+@vendor_scene  
+title: Gehe zu einem Wasserhändler  
+tags: harbour
+max-visits: 1
+
+Du gehst zu dem Tank hinüber. An ihm hängen verblichene Plakate, vom Staub halb zugeklebt. 
+
+Du erkennst die Reste der Überschriften: 
+Headline1: „Ernten im Umland brechen um 70% ein“. 
+
+Headline2: „Stromabschaltungen treffen zuerst die Randgebiete“. 
+
+Headline3: „Die Polykrise nimmt an Fahrt auf“. 
+
+Vendor: Ein Schluck für eine Münze. Oder du läufst durstig weiter. 
+
+- #vendor
+
+@pay_vendor  
+title: Gib ihm etwas Krypto
+tags: vendor
+max-visits: 1
+
+Du gibst ihm etwas Krypto. Das Wasser schmeckt metallisch, aber es nimmt das Kratzen aus deinem Hals. 
+
+Der Händler nickt dir zu, als würde er abwarten, ob du noch etwas wissen willst.  
+
+- #vendor
+
+@ask_direction 
+title: Nach dem Weg fragen
+on-arrival: know-sidestreet = 1 
+tags: vendor
+max-visits: 1
+
+Me: Kannst du mir sagen, wie ich zum Teehaus komme?
+
+Vendor: Immer am Wasser entlang, bis zum langen Pier mit dem kleinen Leuchtturm am Ende. 
+Unten im alten Speicher ist das Teehaus. Du erkennst es an den Papierlaternen. Die lassen sie auch bei Sturm draußen. 
+
+Du bedankst dich, folgst seinem Blick am Wasser entlang und gehst los. 
+
+- @child_drawing
+
+@ask_policrisis  
+title: Nach der Polykrise fragen
+on-arrival: know-sidestreet = 1 
+tags: vendor
+max-visits: 1
+
+Me: Was bitte ist eine Polykrise? 
+
+Der Händler zieht die Augenbrauen hoch und deutet mit dem Kinn auf den Hafen. 
+
+Vendor: Früher war es einfach: Erst kam eine Dürre, dann vielleicht eine Krise. Eins nach dem anderen. 
+
+Er zählt mit den Fingern ab. 
+
+Vendor: Jetzt brennen die Felder, während der Strom ausfällt, während die Preise hochschießen, während Menschen fliehen. 
+Und jede dieser Sachen macht die anderen schlimmer. 
+
+Er zuckt mit den Schultern. 
+
+Vendor: Dazu sagen sie Polykrise. Viele Krisen auf einmal, die sich gegenseitig füttern. 
+
+Einen Moment lang sieht er dich prüfend an.  
+
+Für einen Augenblick scheint der Lärm des Hafens leiser zu werden.  
+Dann lehnt er sich wieder an den Tank. Du könntest weiterfragen oder dich auf den Weg machen.  
+
+- #vendor
+
+@child_drawing
+title: Ein Kind beobachten
+max-visits: 1
+
+Du folgst dem Wasser. Zwischen Kisten und festgebundenen Booten hockt ein Kind im Staub. 
+
+Mit einem Stöckchen zeichnet es eine kleine Kirche, ein Schulgebäude, eine Rakete.  
+Es sind nur ein paar Striche, aber du erkennst sofort, was gemeint ist. 
+
+Für einen Moment hält der Wind inne. 
+
+Dann fegt eine Böe durch den Hafen und verwischt die Linien, bis nur noch grauer Staub bleibt. 
+
+Das Kind schaut kurz auf die leere Stelle, setzt den Stab neu an und beginnt, wieder zu zeichnen. 
+
+- @way_teahouse
+
+@way_teahouse
+title: Weiter zum Teehaus gehen
+view-if: know-sidestreet = 1 
+max-visits: 1 
+
+Du läufst den Pier entlang. Mit jedem Schritt werden die Rufe und Motorengeräusche leiser. 
+
+Unter dir schlagen die Wellen dumpf gegen die Holzpfähle. Der Staub bleibt als feiner Film auf den Planken liegen. 
+
+Vor dir ragt ein langer Pier ins trübe Wasser hinaus. 
+Am Ende steht ein kleiner Leuchtturm, sein Lichtkegel verliert sich auf dem Wasser. 
+
+Am Anfang des Piers erhebt sich ein alter Speicher. 
+
+Papierlaternen schaukeln im Wind. Zwischen ihnen klirren Windspiele aus alten Teekannen leise gegeneinander. 
+
+Die Laternen werfen flackernde Kreise auf die nassen Holzbohlen. 
+
+Neben dem Speicher schwebt eine Drohne auf der Stelle und lässt Krümel in einen Schwarm gieriger Tauben fallen. Dann gerät sie ins Stocken, kippt um und liegt zappelnd am Boden.
+
+- #th_arrival
+
+@drone_scene  
+title: Der Drohne helfen
+max-visits: 1
+tags: th_arrival
+
+Du gehst in die Hocke und hebst sie vorsichtig auf.  
+
+Me: Mal sehen ... Sensoren verstellt.  
+
+Du schaltest die Drohne aus, richtest ihre Optik aus, prüfst den Akku und schaltest sie wieder ein.  
+
+Die Drohne hebt ab, kreist kurz und freundet sich dann wieder mit den Vögeln an. 
+
+Irgendetwas an ihrem Verhalten bringt dich zum Lächeln ...
+
+- #th_arrival
