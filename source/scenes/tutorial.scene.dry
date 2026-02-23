@@ -9,18 +9,18 @@ tags: root, info
 
 This story plays like a chat.
 
-- Click an answer to continue.
+* Click an answer to continue.
 
-- New content appears below the bar at the bottom.
+* New content appears below the bar at the bottom.
 
-- If you can’t see the newest message, scroll.
+* If you can’t see the newest message, scroll.
 
 = Sidebars
 
 Use the buttons in the top bar to open the side panels:
 
-- Progress (map icon): shows what you’ve done so far.
+* Progress (map icon): shows what you’ve done so far.
 
-- Info (info icon): shows helpful context and lets you toggle theme and save/load.
+* Info (info icon): shows helpful context and lets you toggle theme and save/load.
 
 
