@@ -10,9 +10,9 @@ tags: info
 
 The Whole Under Management is the “unit” you are managing and making decisions for. It is defined by three things:
 
-Decision makers
-Resource base
- Money
+• Decision makers
+• Resource base
+• Money
 
 **Who counts as a decision maker?**
 
@@ -30,9 +30,9 @@ Because money is a real constraint and a real tool. It can come from savings, in
 
 Your Holistic Context is your shared “north star” for decision-making. It describes:
 
- The quality of life you want
- The future resource base needed to sustain it
-[? if part-of = "org" : A statement of purpose for the organisation ?]
+• The quality of life you want
+• The future resource base needed to sustain it
+[? if part-of = "org" : • A statement of purpose for the organisation ?]
 
 **What are the Filter Questions?**
 
@@ -40,13 +40,13 @@ They are the seven context checks that help you test any action against your hol
 
 The seven checks are:
 
- Cause and Effect
- Weak Link (social, biological, financial)
- Marginal Reaction
- Gross Profit Analysis
- Energy/Money Source and Use
- Sustainability
- Gut Feel
+• Cause and Effect
+• Weak Link (social, biological, financial)
+• Marginal Reaction
+• Gross Profit Analysis
+• Energy/Money Source and Use
+• Sustainability
+• Gut Feel
 
 **What if an action fails a check?**
 
