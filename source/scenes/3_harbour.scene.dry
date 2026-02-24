@@ -2,59 +2,43 @@ title: Harbour
 
 You reach the old harbour.
 
-On the quay, a vendor stands by a rickety tank, filling water into used bottles.  
-
 A delivery drone circles above the water, searching for the best angle for a selfie.  
 
 In the hinterland, a dust storm is brewing, its grit already scratching at your throat.
 
-Between water, dust and drones, you have to decide where to go first.  
+On the quay, a vendor leans against his dented water tank, hoisting a cloudy glass and calling out:
+
+Vendor: One sip for a coin. Or you keep walking thirsty. 
 
 - #harbour
 
 @vendor_scene  
-title: Go to a water vendor  
-tags: harbour
+title: Approach the vendor  
 max-visits: 1
+tags: harbour
 
 You walk over to the tank. Faded posters hang from it, half covered in dust. 
 
 You can still make out the headlines: 
+
 Headline1: Harvests in the region down 70%. 
 
-Headline2: Blackouts hit the outskirts first. 
+Headline2: Blackouts hit the outskirts. 
 
 Headline3: The polycrisis is gaining momentum. 
-
-Vendor: One sip for a coin. Or you keep walking thirsty. 
 
 - #vendor
 
 @pay_vendor  
-title: Hand over some crypto
-tags: vendor
+title: Pay the vendor
 max-visits: 1
+tags: vendor
 
 You hand over some crypto. The water tastes metallic, but it eases the scratching in your throat. 
 
-The vendor nods to you, as if waiting to see whether you want to ask anything else.  
+The vendor cleans some glasses.  
 
 - #vendor
-
-@ask_direction 
-title: Ask for directions
-on-arrival: know-way = 1 
-tags: vendor
-max-visits: 1
-
-Me: Can you tell me how to get to the teahouse?
-
-Vendor: Follow the water until you reach the long pier with the small lighthouse at the end. 
-Down in the old warehouse is the teahouse. You'll recognize it by the paper lanterns. They leave them out even in a storm. 
-
-You thank him, follow his gaze along the water and set off. 
-
-- @child_drawing
 
 @ask_policrisis  
 title: Ask about the polycrisis
@@ -65,12 +49,11 @@ Me: Sorry, what exactly is a polycrisis?
 
 The vendor raises his eyebrows and gestures towards the harbour with his chin. 
 
-Vendor: It used to be simple: first you had a drought, then maybe a crisis. One after the other. 
+Vendor: It used to be simple: first you had a power outtage, then maybe some protests. One after the other. 
 
 He counts them off on his fingers. 
 
-Vendor: Now the fields burn while the power goes out, while prices shoot up, while people flee. 
-And each of these things makes the others worse. 
+Vendor: Now the fields burn while the water is scarce, while prices shoot up, while people flee. And each of these things makes the others worse. 
 
 He shrugs. 
 
@@ -78,16 +61,29 @@ Vendor: That's what they call a polycrisis. Many crises at once, feeding each ot
 
 For a moment he looks at you, weighing you up.  
 
-For an instant, the noise of the harbour seems to fade.  
-Then he leans back against the tank. You could ask more, or set off on your way.  
+Then he leans back against the tank.   
 
 - #vendor
 
-@child_drawing
-title: Watch a child
-max-visits: 1
+@ask_direction 
+title: Ask for the teahouse
+on-arrival: know-way = 1 
+tags: vendor
 
-You follow the water. Between crates and moored boats, a child crouches in the dust. 
+Me: Can you tell me how to get to the teahouse?
+
+Vendor: Follow the water until you reach the long pier with the small lighthouse at the end. You'll recognize the teahouse by the paper lanterns. They leave them out even in a storm. 
+
+You thank him, follow his gaze along the water and set off. 
+
+Between crates and moored boats, a child crouches in the dust. 
+
+- #quay
+
+@child_drawing
+title: Set off
+view-if: know-way = 1 
+tags: quay
 
 With a stick it draws a small church, a school building, a rocket.  
 It's only a few lines, but you immediately recognize what they are. 
@@ -102,10 +98,11 @@ The child glances at the empty spot, sets the stick down again and starts drawin
 
 @way_teahouse
 title: Head on to the teahouse
-view-if: know-way = 1 
-max-visits: 1 
+unavailable-subtitle: You don't know the way yet
+choose-if: know-way = 1 
+tags: harbour, quay
 
-You walk along the pier. With every step, the shouts and engine noises grow quieter. 
+You walk along the quay. With every step, the shouts and engine noises grow quieter. 
 
 Below you, waves thud dully against the wooden piles. Dust settles as a fine film on the planks. 
 
