@@ -47,7 +47,7 @@ Facilyn: "Does this action address the weakest link in the chain of production?"
 
 - #financial_wl
 
-@fqwl_clarification
+@fqwl_explanation
 title: I need more clarification on weak links
 tags: weak_links
 
@@ -63,7 +63,7 @@ A security robot patrols the street, diligently checking every door handle while
 
 @fqwl_social_pass
 title: No, it won't create conflict
-on-arrival: wl-social = "no conflict"
+on-arrival: wl-social = "Passed"
 tags: social_wl
 
 Me: No, it won't create conflict.
@@ -72,7 +72,7 @@ Me: No, it won't create conflict.
 
 @fqwl_social_fail
 title: Yes, it could create conflict
-on-arrival: wl-social = "could create conflict"
+on-arrival: wl-social = "Failed"
 tags: social_wl
 
 Me: Yes, it could create conflict.
@@ -81,7 +81,7 @@ Me: Yes, it could create conflict.
 
 @fqwl_social_skip
 title: Skip this check
-on-arrival: wl-social = "Skip"
+on-arrival: wl-social = "Skipped"
 tags: social_wl
 
 Me: Skip this check.
@@ -92,7 +92,7 @@ Me: Skip this check.
 
 @fqwl_biological_pass
 title: Yes, it addresses the weakest point
-on-arrival: wl-biological = "addresses weakest point"
+on-arrival: wl-biological = "Passed"
 tags: biological_wl
 
 Me: Yes, it addresses the weakest point.
@@ -101,7 +101,7 @@ Me: Yes, it addresses the weakest point.
 
 @fqwl_biological_fail
 title: No, it does not address the weakest point
-on-arrival: wl-biological = "does not address the weakest point"
+on-arrival: wl-biological = "Failed"
 tags: biological_wl
 
 Me: No, it does not address the weakest point.
@@ -110,7 +110,7 @@ Me: No, it does not address the weakest point.
 
 @fqwl_biological_skip
 title: Skip this check
-on-arrival: wl-biological = "Skip"
+on-arrival: wl-biological = "Skipped"
 tags: biological_wl
 
 Me: Skip this check.
@@ -121,7 +121,7 @@ Me: Skip this check.
 
 @fqwl_financial_pass
 title: Yes, it addresses the weakest link
-on-arrival: wl-financial = "addresses the weakest link"
+on-arrival: wl-financial = "Passed"
 tags: financial_wl
 
 Me: Yes, it addresses the weakest link.
@@ -130,7 +130,7 @@ Me: Yes, it addresses the weakest link.
 
 @fqwl_financial_fail
 title: No, it does not address the weakest link
-on-arrival: wl-financial = "does not address the weakest link"
+on-arrival: wl-financial = "Failed"
 tags: financial_wl
 
 Me: No, it does not address the weakest link.
@@ -139,7 +139,7 @@ Me: No, it does not address the weakest link.
 
 @fqwl_financial_skip
 title: Skip this check
-on-arrival: wl-financial = "Skip"
+on-arrival: wl-financial = "Skipped"
 tags: financial_wl
 
 Me: Skip this check.

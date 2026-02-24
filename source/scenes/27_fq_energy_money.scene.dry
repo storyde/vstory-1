@@ -1,4 +1,4 @@
-﻿title: Energy/Money Source Check
+title: Energy/Money Source Check
 subtitle: Sustainable Resource Management
 new-page: true
 
@@ -12,7 +12,7 @@ Facilyn: "Is the energy or money to be used in this action derived from the most
 
 # Source
 
-@fqem_source_clarification
+@fqem_source_explanation
 title: I need help understanding this check
 tags: em_source
 
@@ -24,7 +24,7 @@ Facilyn: Is it unlimited/renewable/internal (appropriate) or limited/polluting/e
 
 @fqem_source_pass
 title: The source is appropriate
-on-arrival: em-source = "appropriate"
+on-arrival: em-source = "Passed"
 go-to: fqem_use_intro
 tags: em_source
 
@@ -34,7 +34,7 @@ Facilyn: Good. Using renewable, internal, or non-damaging sources builds resilie
 
 @fqem_source_issues
 title: There are issues with the source
-on-arrival: em-source = "issues"
+on-arrival: em-source = "Failed"
 go-to: fqem_use_intro
 tags: em_source
 
@@ -44,7 +44,7 @@ Facilyn: Noting this is important. Relying on finite or external sources with st
 
 @fqem_source_skip
 title: Skip source check
-on-arrival: em-source = "skip"
+on-arrival: em-source = "Skipped"
 go-to: fqem_use_intro
 tags: em_source
 
@@ -61,7 +61,7 @@ Facilyn: "Will the way in which the energy or money is used be in line with our 
 
 - #em_use
 
-@fqem_use_clarification
+@fqem_use_explanation
 title: I need help understanding this check
 tags: em_use
 
@@ -73,7 +73,7 @@ Facilyn: Is it for infrastructure/cyclical (constructive) or merely consumptive/
 
 @fqem_use_pass
 title: The use is appropriate
-on-arrival: em-use = "appropriate"
+on-arrival: em-use = "Passed"
 go-to: 28_fq_sustainability
 tags: em_use
 
@@ -83,7 +83,7 @@ Facilyn: Excellent. Investing in infrastructure or cyclical growth creates lasti
 
 @fqem_use_issues
 title: There are issues with the use
-on-arrival: em-use = "issues"
+on-arrival: em-use = "Failed"
 go-to: 28_fq_sustainability
 tags: em_use
 
@@ -93,7 +93,7 @@ Facilyn: Be cautious. Consumptive or addictive uses can drain resources without 
 
 @fqem_use_skip
 title: Skip use check
-on-arrival: em-use = "skip"
+on-arrival: em-use = "Skipped"
 go-to: 28_fq_sustainability
 tags: em_use
 

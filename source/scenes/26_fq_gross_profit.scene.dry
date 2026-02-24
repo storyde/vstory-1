@@ -1,4 +1,4 @@
-﻿title: Gross Profit Analysis Check
+title: Gross Profit Analysis Check
 subtitle: Enterprise Selection
 new-page: true
 
@@ -8,7 +8,7 @@ Facilyn: "Which enterprises contribute the most to covering the overheads of the
 
 - #gross_profit
 
-@fqgp_clarification
+@fqgp_explanation
 title: I need help understanding this check
 tags: gross_profit
 
@@ -22,7 +22,7 @@ Facilyn: You are selecting the best enterprise or combination of enterprises to 
 
 @fqgp_pass
 title: It contributes the most to covering overheads
-on-arrival: fltr-profit = "highest contribution"
+on-arrival: fltr-profit = "Passed"
 go-to: 27_fq_energy_money
 tags: gross_profit
 
@@ -32,7 +32,7 @@ Facilyn: Excellent. You've identified this as a high-performing enterprise that 
 
 @fqgp_fail
 title: It contributes little to covering overheads
-on-arrival: fltr-profit = "contributes little"
+on-arrival: fltr-profit = "Failed"
 go-to: 27_fq_energy_money
 tags: gross_profit
 
@@ -42,7 +42,7 @@ Facilyn: You may want to reconsider if this is the best use of your resources, o
 
 @fqgp_combination
 title: It is part of a good combination of enterprises
-on-arrival: fltr-profit = "good combination"
+on-arrival: fltr-profit = "Passed"
 go-to: 27_fq_energy_money
 tags: gross_profit
 
@@ -52,7 +52,7 @@ Facilyn: Good. Sometimes a mix of enterprises creates the best stability and pro
 
 @fqgp_skip
 title: Not sure, let's move on
-on-arrival: fltr-profit = "skip"
+on-arrival: fltr-profit = "Skipped"
 go-to: 27_fq_energy_money
 tags: gross_profit
 

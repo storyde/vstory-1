@@ -1,4 +1,4 @@
-﻿title: Gut Feel Check
+title: Gut Feel Check
 subtitle: Values-Based Final Assessment
 new-page: true
 
@@ -8,7 +8,7 @@ Facilyn: "How do we feel about this action now? Will it lead to the quality of l
 
 - #gut_feel
 
-@fqgut_clarification
+@fqgut_explanation
 title: I need help understanding this check
 tags: gut_feel
 
@@ -22,7 +22,7 @@ Facilyn: Even if an action passes all other checks, you might reject it if it do
 
 @fqgut_pass
 title: It feels right
-on-arrival: fltr-gut = "feels right"
+on-arrival: fltr-gut = "Passed"
 go-to: 30_fq_result
 tags: gut_feel
 
@@ -32,7 +32,7 @@ Facilyn: Excellent. When analysis and intuition align, you can proceed with conf
 
 @fqgut_fail
 title: It feels wrong
-on-arrival: fltr-gut = "feels wrong"
+on-arrival: fltr-gut = "Failed"
 go-to: 30_fq_result
 tags: gut_feel
 
@@ -42,7 +42,7 @@ Facilyn: Trust that feeling. Your intuition often catches what logic misses.
 
 @fqgut_mixed
 title: I have mixed feelings
-on-arrival: fltr-gut = "mixed"
+on-arrival: fltr-gut = "Skipped"
 go-to: 30_fq_result
 tags: gut_feel
 

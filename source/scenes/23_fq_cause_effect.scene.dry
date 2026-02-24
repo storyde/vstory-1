@@ -8,7 +8,7 @@ Facilyn: "Does this action address the root cause of the problem?"
 
 - #cause_effect
 
-@fqce_clarification
+@fqce_explanation
 title: I need help distinguishing cause from symptom
 tags: cause_effect
 
@@ -24,7 +24,7 @@ A repair robot wheels past the teahouse, methodically fixing a street lamp that 
 
 @fqce_pass
 title: Yes, it addresses the root cause
-on-arrival: fltr-cause = "addresses root cause"
+on-arrival: fltr-cause = "Passed"
 go-to: 24_fq_weak_link
 tags: cause_effect
 
@@ -34,7 +34,7 @@ Facilyn: Excellent. You've identified that your action targets the fundamental i
 
 @fqce_fail
 title: No, it only treats symptoms
-on-arrival: fltr-cause = "treats symptoms"
+on-arrival: fltr-cause = "Failed"
 go-to: 24_fq_weak_link
 tags: cause_effect
 
@@ -44,6 +44,7 @@ Facilyn: An important realization. Treating symptoms might provide temporary rel
 
 @fqce_skip
 title: Not sure, let me review this check later
+on-arrival: fltr-cause = "Skipped"
 go-to: 24_fq_weak_link
 tags: cause_effect
 
