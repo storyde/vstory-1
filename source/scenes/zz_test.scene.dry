@@ -7,6 +7,10 @@ tags: root
 
 = Title
 
+Facilyn: Some Text <br> manual line break
+
+Some Text <br> manual line break
+
 > Quote
 
 >> Attribution
