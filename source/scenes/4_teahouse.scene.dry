@@ -14,11 +14,9 @@ At a table near the window, a hand lifts in greeting.
 
 It’s Facilyn.
 
-She watches you for a heartbeat longer than expected — as if confirming something to herself — then smiles.
-
 Facilyn: You found it.
 
-A small pause.
+She looks at you and smiles.
 
 Facilyn: I wasn’t entirely sure you would.
 
@@ -39,8 +37,6 @@ She gestures to the seat across from her.
 
 Facilyn: The city buries its better corners on purpose. You have to want to arrive.
 
-She studies your face briefly.
-
 Facilyn: I’m glad you did.
 
 - #what_up_to
@@ -48,6 +44,7 @@ Facilyn: I’m glad you did.
 @took_us_a_while
 title: Took us a while to find this place
 view-if: part-of != "individual"
+max-visits: 1
 tags: what_up_to
 
 Me: Took us a while to find this place. 
@@ -60,14 +57,13 @@ She gestures to the seats across from her.
 
 Facilyn: The city buries its better corners on purpose. You have to want to arrive.
 
-Her gaze lingers a moment.
-
 Facilyn: I’m glad you did.
 
 - #what_up_to
 
 @what_up_to
 title: Ask what she has been up to
+max-visits: 1
 tags: what_up_to
 
 Me: So. What have you been up to?
@@ -75,8 +71,6 @@ Me: So. What have you been up to?
 Facilyn wraps the string of her teabag once around her finger, thinking.
 
 Facilyn: Moving. Listening. Arguing with very well-meaning people.
-
-A faint smile.
 
 Facilyn: I’ve been traveling a lot since we last saw each other. Different cities. Different cultures. Same pattern.
 
@@ -86,7 +80,7 @@ Facilyn: People trying. Really trying. Working late. Designing policies. Buildin
 
 She looks back up.
 
-Facilyn: And still… the problems multiply faster than the solutions.
+Facilyn: And still... the problems multiply faster than the solutions.
 
 Facilyn: The polycrisis isn’t a streak of bad luck. It’s not a few broken systems.
 
@@ -96,40 +90,9 @@ Facilyn: It’s the result of how we’ve been managing things for centuries.
 
 - #human_made
 
-@how_decisionmaking_past
-title: How is that?
-tags: human_made
-
-Me: How is that?
-
-Facilyn: We make decisions to meet a need. Solve a problem. Satisfy a desire. That’s normal. Necessary.
-
-She removes the shiny plastic wrapper of a new teabag.
-
-Facilyn: We define the problem… and then we let that definition become the entire context.
-
-Facilyn: If the problem is “preserve the aroma,” we invent packaging. It works. It’s useful.
-
-She smooths the plastic on the table.
-
-Facilyn: But we ask too late, what billions of these do to oceans. Or soil. Or bodies.
-
-She meets your eyes.
-
-Facilyn: The mistake isn’t solving problems.
-
-A slight shake of her head.
-
-Facilyn: It’s shrinking the world to the size of the problem.
-
-She leans back.
-
-Facilyn: When you’re dealing with the three complex areas that actually sustain us, that kind of reduction becomes dangerous.
-
-- #three_areas
-
 @bold_statement
 title: That's a bold statement, don’t you think?
+max-visits: 1
 tags: human_made
 
 Me: That’s a bold statement, don’t you think?
@@ -158,8 +121,40 @@ Facilyn: We make thousands of management decisions every day. We just rarely loo
 
 - #human_made
 
+@how_decisionmaking_past
+title: How is that?
+max-visits: 1
+tags: human_made
+
+Me: How is that?
+
+Facilyn: We make decisions to meet a need. Solve a problem. Satisfy a desire. That’s normal. Necessary.
+
+She removes the shiny plastic wrapper of a new teabag.
+
+Facilyn: We define the problem... and then we let that definition become the entire context.
+
+Facilyn: If the problem is “preserve the aroma,” we invent packaging. It works. It’s useful.
+
+She smooths the plastic on the table.
+
+Facilyn: But we ask too late, what billions of these do to oceans. Or soil. Or bodies.
+
+She meets your eyes.
+
+Facilyn: The mistake isn’t solving problems.
+
+A slight shake of her head.
+
+Facilyn: It’s shrinking the world to the size of the problem.
+
+Facilyn: When you’re dealing with the three complex areas that actually sustain us, that kind of reduction becomes dangerous.
+
+- #three_areas
+
 @three_complex_systems
 title: Are you sure it's only three?
+max-visits: 1
 tags: three_areas
 
 Me: Are you sure it’s only three?
@@ -183,6 +178,7 @@ Facilyn: We treat them as separate sectors. They’re not. They’re layers of o
 
 @found_better_way
 title: And did you find a better way to manage?
+max-visits: 1
 tags: human_made
 
 Me: And did you find a better way?
@@ -203,15 +199,13 @@ She looks at the steam rising between you.
 
 Facilyn: We learned more than we expected. And it broke a few certainties.
 
-A small pause.
-
-Facilyn: But yes. We built something.
+Facilyn: But yes. We built a framework that helps manage complexity.
 
 - #better_way
 
 @what_complexity
 title: What do you mean by "complexity"?
-tags: three_areas, better_way
+tags: better_way
 
 Facilyn nods slowly.
 
@@ -229,7 +223,6 @@ Facilyn: Remember what happened when we thought artificial intelligence was just
 
 - @ai_what_happened
 - @ai_i_know
-- @how_mng_complexity
 
 @ai_what_happened
 title: No, what happened?
@@ -292,9 +285,9 @@ Facilyn: Most of our crises come from confusing the two.
 
 @how_mng_complexity
 title: So, how do you manage complexity?
-tags: how_complexity
+tags: how_complexity, better_way, three_areas
 
-Me: So how do you manage complexity?
+Me: So, how do you manage complexity?
 
 For a moment, she doesn’t answer.
 
@@ -306,7 +299,7 @@ Facilyn: You manage it by refusing to lose sight of the whole you’re affecting
 
 Facilyn: And by filtering every significant decision against a context large enough to hold that whole.
 
-Facilyn: That’s what we created: A framework that helps manage complexity.
+Facilyn: And the framework we created covers that.
 
 Her hand remains resting on the cleared space between you.
 
