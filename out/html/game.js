@@ -495,10 +495,12 @@
       'Vendor: ':      'cve',
       'Stranger: ':    'cst',
       'Drawer: ':      'cdr',
+      'RoboDisplay: ': 'crd',
+      'RoboVoice: ':   'crv',
       'Headline1: ':   'ch1',
       'Headline2: ':   'ch2',
       'Headline3: ':   'ch3',
-      'Narration: ':   'na'
+      'Paper: ':       'cpa'
     };
 
     const profileImages = {
@@ -519,14 +521,14 @@
       'ch1': 'Headline1',
       'ch2': 'Headline2',
       'ch3': 'Headline3',
+      'crd': 'Robo Display',
+      'crv': 'Robo Voice',
+      'chi': 'Hint',
+      'cpa': 'Paper',
       'cis': 'Info Sign',
       'cds': 'Danger Sign',
       'cws': 'Warning Sign',
-      'can': 'Announcement',
-      'crv': 'Robo Voice',
-      'crw': 'Robo Writing',
-      'chi': 'Hint',
-      'cre': 'Result'
+      'can': 'Announcement'
     };
 
     for (const prefix in mapping) {
@@ -541,19 +543,19 @@
               <span class="profile me">Me</span>
             </div>
           `;
-        } else if (cls === 'na') {
+        } else if (cls === 'cpa') {
           return `
-            <div class="chat-line narration">
-              <div class="bubble na">${content}</div>
+            <div class="chat-line paper">
+              <div class="bubble cpa">${content}</div>
             </div>
           `;
         } else if (
           cls === 'cis' || cls === 'cds' || cls === 'cws' ||
-          cls === 'can' || cls === 'crv' || cls === 'crw' ||
-          cls === 'chi' || cls === 'cre'
+          cls === 'can' || cls === 'crv' || cls === 'crd' ||
+          cls === 'chi'
         ) {
           return `
-            <div class="chat-line accent">
+            <div class="chat-line elements">
               <div class="bubble ${cls}">${content}</div>
             </div>
           `;
