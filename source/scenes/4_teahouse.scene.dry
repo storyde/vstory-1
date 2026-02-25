@@ -8,7 +8,7 @@ The noise of wind folds away as the door closes behind you.
 
 Inside, the light is amber and low. Steam rises in slow spirals from clay pots. Cups click softly against saucers. 
 
-A thin thread of citrus and something earthy hangs in the air.
+A thin thread of citrus and jasmine hangs in the air.
 
 At a table near the window, a hand lifts in greeting.
 
@@ -25,6 +25,7 @@ Facilyn: I wasn’t entirely sure you would.
 @took_me_a_while
 title: Took me a while to find this place
 view-if: part-of = "individual"
+max-visits: 1
 tags: what_up_to
 
 Me: Took me a while to find this place. 
@@ -183,7 +184,7 @@ tags: human_made
 
 Me: And did you find a better way?
 
-For the first time, she hesitates.
+She hesitates.
 
 Facilyn: I didn’t. Not alone.
 
@@ -289,9 +290,7 @@ tags: how_complexity, better_way, three_areas
 
 Me: So, how do you manage complexity?
 
-For a moment, she doesn’t answer.
-
-Instead, she clears a small space on the wooden table. Moves the cups aside. 
+Facilyn clears a small space on the wooden table. Moves the cups aside. 
 
 Facilyn: You don’t manage it by tightening control.
 
