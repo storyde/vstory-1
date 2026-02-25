@@ -30,7 +30,7 @@ Headline3: The polycrisis is gaining momentum.
 - #vendor
 
 @pay_vendor  
-title: Pay the vendor
+title: Buy water
 max-visits: 1
 tags: vendor
 
@@ -76,17 +76,16 @@ Vendor: Follow the water until you reach the long pier with the small lighthouse
 
 You thank him, follow his gaze along the water and set off. 
 
-Between crates and moored boats, a child crouches in the dust. 
+Between crates and moored boats, a child draws with a stick in the dust. 
 
 - #quay
 
 @child_drawing
-title: Set off
+title: Go closer
 view-if: know-way = 1 
 tags: quay
 
-With a stick it draws a small church, a school building, a rocket.  
-It's only a few lines, but you immediately recognize what they are. 
+It's only a few lines, but you immediately recognize a small church, a school building, a rocket.
 
 For a moment the wind holds its breath. 
 
@@ -104,16 +103,11 @@ tags: harbour, quay
 
 You walk along the quay. With every step, the shouts and engine noises grow quieter. 
 
-Below you, waves thud dully against the wooden piles. Dust settles as a fine film on the planks. 
-
-In front of you, a long pier juts out into the murky water. 
-At the end, a small lighthouse stands, its beam lost over the water. 
+You reach a long pier with a small lighthouse at the end of it, its beam lost over the water. 
 
 At the start of the pier, an old warehouse rises up. 
 
 Paper lanterns sway in the wind. Between them, wind chimes made from old teapots clink softly together. 
-
-The lanterns cast flickering circles onto the wet wooden boards. 
 
 Next to the warehouse, a drone hovers in place, dropping crumbs to a swarm of eager pigeons. Then it falters, tips over and lies twitching on the ground.
 
