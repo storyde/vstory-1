@@ -40,6 +40,8 @@ Should see slash-slash-asterisk: \\\\*
 
 Should see brackets: \[ \]
 
+---
+
 Code: `this should be monospaced.`
 
 In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('32_framework_outro');">Scene Outro</a>!}
