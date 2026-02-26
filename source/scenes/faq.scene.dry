@@ -6,6 +6,8 @@ tags: root
 
 = Frequently asked questions
 
+[? if decision-makers = 0 : <details><summary>What is the Whole Under Management?</summary><p>The Whole Under Management is the “unit” you are managing and making decisions for. It is defined by three things: <br> • Decision makers <br> • Resource base <br> • Money </p></details> ?]
+
 **What is the Whole Under Management?**
 
 The Whole Under Management is the “unit” you are managing and making decisions for. It is defined by three things:
