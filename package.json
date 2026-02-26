@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "dendry": "github:storyde/dendry"
+    "dendry": "github:storyde/dendry-chat"
   },
   "name": "dendry",
   "description": "This is a learning experience written in [Dendry](https://github.com/manage-complexity/dendry-chat). It has a chat layout and includes an interactive story structure.",
