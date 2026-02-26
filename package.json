@@ -3,15 +3,15 @@
     "dendry": "github:storyde/dendry-chat"
   },
   "name": "dendry-chat",
-  "description": "This is a learning experience written in [Dendry-Chat](https://github.com/manage-complexity/dendry-chat). It includes an interactive story structure.",
+  "description": "This is a learning experience written in [Dendry](https://github.com/manage-complexity/dendry-chat). It has a chat layout and includes an interactive story structure.",
   "version": "1.0.0",
   "main": "out/html/index.html",
   "scripts": {
-    "dendry": "dendry-chat"
+    "dendry": "dendry"
   },
   "keywords": [
-    "dendry-chat",
-    "interactive-learning"
+    "dendry",
+    "interactive-fiction"
   ],
   "author": "Manage-Complexity",
   "license": "MIT",
