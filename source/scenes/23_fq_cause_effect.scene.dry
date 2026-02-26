@@ -25,7 +25,7 @@ A repair robot wheels past the teahouse, methodically fixing a street lamp that 
 @fqce_pass
 title: Yes, it addresses the root cause
 on-arrival: fltr-cause = "Passed"
-go-to: 24_fq_weak_link
+go-to: 24_fq_weak_link; jumpScene if fltr-result = "visited"
 tags: cause_effect
 
 Me: Yes, it addresses the root cause.
@@ -35,7 +35,7 @@ Facilyn: Excellent. You've identified that your action targets the fundamental i
 @fqce_fail
 title: No, it only treats symptoms
 on-arrival: fltr-cause = "Failed"
-go-to: 24_fq_weak_link
+go-to: 24_fq_weak_link; jumpScene if fltr-result = "visited"
 tags: cause_effect
 
 Me: No, it only treats symptoms.
@@ -45,7 +45,7 @@ Facilyn: An important realization. Treating symptoms might provide temporary rel
 @fqce_skip
 title: Not sure, let me review this check later
 on-arrival: fltr-cause = "Skipped"
-go-to: 24_fq_weak_link
+go-to: 24_fq_weak_link; jumpScene if fltr-result = "visited"
 tags: cause_effect
 
 Me: Not sure, let me review this check later.

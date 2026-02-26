@@ -1,35 +1,11 @@
 title: Filter Questions Result
 subtitle: Summary of your analysis
+on-arrival: fltr-result = "visited"
 go-to: 31_fq_revisit
 new-page: true
 
 Facilyn: You have now run your decision through all seven context checks. Let's review the results.
 
-# Cause and Effect
-Facilyn: **Cause and Effect**: [+ fltr-cause +]
+She places the paper between you.
 
-# Weak Link
-Facilyn: **Social Weak Link**: [+ wl-social +]
-
-Facilyn: **Biological Weak Link**: [+ wl-biological +]
-
-Facilyn: **Financial Weak Link**: [+ wl-financial +]
-
-# Marginal Reaction
-Facilyn: **Marginal Reaction**: [+ fltr-marginal +]
-
-# Gross Profit
-Facilyn: **Gross Profit**: [+ fltr-profit +]
-
-# Energy/Money
-Facilyn: **Energy/Money Source**: [+ em-source +]
-
-Facilyn: **Energy/Money Use**: [+ em-use +]
-
-# Sustainability
-Facilyn: **Behaviour**: [+ sus-behaviour +]
-
-Facilyn: **Environment**: [+ sus-environment +]
-
-# Gut Feel
-Facilyn: **Gut Feel**: [+ fltr-gut +]
+Paper: • **Cause and Effect**: [+ fltr-cause +] <br> • **Social Weak Link**: [+ wl-social +] <br> • **Biological Weak Link**: [+ wl-biological +] <br> • **Financial Weak Link**: [+ wl-financial +] <br> • **Marginal Reaction**: [+ fltr-marginal +] <br> • **Gross Profit**: [+ fltr-profit +] <br> • **Energy/Money Source**: [+ em-source +] <br> • **Energy/Money Use**: [+ em-use +] <br> • **Behaviour**: [+ sus-behaviour +] <br> • **Environment**: [+ sus-environment +] <br> • **Gut Feel**: [+ fltr-gut +]

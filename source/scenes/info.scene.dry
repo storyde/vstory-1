@@ -3,26 +3,15 @@ new-page: true
 
 # This scene contains information for the right sidebar.
 
-= About
+= 🚧 Under development. 🛠️ 
 
-🚧 **Under development.** 🛠️ 
-
-Expect bugs 🐞 
+**Expect bugs** 🐞 
 
 🍀 Be kind to them. 
 
 = Frequently asked questions
 
-{!
-<details>
-  <summary>What is the Whole Under Management?</summary>
-  <p>The Whole Under Management is the “unit” you are managing and making decisions for. It is defined by three things:<br>
-    • Decision makers<br>
-    • Resource base<br>
-    • Money<br>
-  </p>
-</details>
-
+[? if decision-makers = 0 : <details><summary>What is the Whole Under Management?</summary><p>The Whole Under Management is the “unit” you are managing and making decisions for. It is defined by three things: <br> • Decision makers <br> • Resource base <br> • Money </p></details> ?]
 
 <details>
   <summary>Who counts as a decision maker?</summary>
@@ -40,7 +29,7 @@ Expect bugs 🐞
   <summary>What is a Holistic Context?</summary>
   <p>Your Holistic Context is your shared “north star” for decision-making. It describes:<br>
     • The quality of life you want<br>
-    • The future resource base needed to sustain it<br>
+    • The future resource base needed to sustain it
   </p>
 </details>
 
@@ -67,8 +56,8 @@ Expect bugs 🐞
 
     • Sustainability<br>
 
-    • Gut Feel<br>
-    </p>
+    • Gut Feel 
+  </p>
 </details>
 
 
@@ -82,4 +71,3 @@ Expect bugs 🐞
   <summary>Why is Gut Feel last?</summary>
   <p>Because it uses the picture you built from the other checks. It asks how you feel about the action in terms of your values, relationships, and consequences for others.</p>
 </details>
-!}

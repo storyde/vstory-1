@@ -64,6 +64,7 @@ A security robot patrols the street, diligently checking every door handle while
 @fqwl_social_pass
 title: No, it won't create conflict
 on-arrival: wl-social = "Passed"
+go-to: jumpScene if fltr-result = "visited"
 tags: social_wl
 
 Me: No, it won't create conflict.
@@ -73,6 +74,7 @@ Me: No, it won't create conflict.
 @fqwl_social_fail
 title: Yes, it could create conflict
 on-arrival: wl-social = "Failed"
+go-to: jumpScene if fltr-result = "visited"
 tags: social_wl
 
 Me: Yes, it could create conflict.
@@ -82,6 +84,7 @@ Me: Yes, it could create conflict.
 @fqwl_social_skip
 title: Skip this check
 on-arrival: wl-social = "Skipped"
+go-to: jumpScene if fltr-result = "visited"
 tags: social_wl
 
 Me: Skip this check.
@@ -93,6 +96,7 @@ Me: Skip this check.
 @fqwl_biological_pass
 title: Yes, it addresses the weakest point
 on-arrival: wl-biological = "Passed"
+go-to: jumpScene if fltr-result = "visited"
 tags: biological_wl
 
 Me: Yes, it addresses the weakest point.
@@ -102,6 +106,7 @@ Me: Yes, it addresses the weakest point.
 @fqwl_biological_fail
 title: No, it does not address the weakest point
 on-arrival: wl-biological = "Failed"
+go-to: jumpScene if fltr-result = "visited"
 tags: biological_wl
 
 Me: No, it does not address the weakest point.
@@ -111,6 +116,7 @@ Me: No, it does not address the weakest point.
 @fqwl_biological_skip
 title: Skip this check
 on-arrival: wl-biological = "Skipped"
+go-to: jumpScene if fltr-result = "visited"
 tags: biological_wl
 
 Me: Skip this check.
@@ -122,6 +128,7 @@ Me: Skip this check.
 @fqwl_financial_pass
 title: Yes, it addresses the weakest link
 on-arrival: wl-financial = "Passed"
+go-to: jumpScene if fltr-result = "visited"
 tags: financial_wl
 
 Me: Yes, it addresses the weakest link.
@@ -131,6 +138,7 @@ Me: Yes, it addresses the weakest link.
 @fqwl_financial_fail
 title: No, it does not address the weakest link
 on-arrival: wl-financial = "Failed"
+go-to: jumpScene if fltr-result = "visited"
 tags: financial_wl
 
 Me: No, it does not address the weakest link.
@@ -140,6 +148,7 @@ Me: No, it does not address the weakest link.
 @fqwl_financial_skip
 title: Skip this check
 on-arrival: wl-financial = "Skipped"
+go-to: jumpScene if fltr-result = "visited"
 tags: financial_wl
 
 Me: Skip this check.

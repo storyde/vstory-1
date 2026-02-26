@@ -7,6 +7,17 @@ tags: root
 
 = Title
 
+Facilyn: test test <details><summary>What is the Whole Under Management?</summary><p>The Whole Under Management is the “unit” you are managing and making decisions for. It is defined by three things: <br> • Decision makers <br> • Resource base <br> • Money </p></details>
+
+<details>
+  <summary>What is the Whole Under Management?</summary>
+  <p>The Whole Under Management is the “unit” you are managing and making decisions for. It is defined by three things:<br>
+    • Decision makers<br>
+    • Resource base<br>
+    • Money<br>
+  </p>
+</details>
+
 Facilyn: Some Text <br> manual line break
 
 Some Text <br> manual line break
@@ -48,3 +59,4 @@ In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('30_fq_resu
 
 {!<a href="#" onmouseover="this.innerHTML='Guilty';" onmouseout="this.innerHTML='Not Guilty';>Not Guilty</a>!}
 
+- @backSpecialScene: Back

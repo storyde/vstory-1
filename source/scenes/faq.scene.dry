@@ -2,7 +2,7 @@ title: FAQ
 subtitle: Frequently asked questions
 order: 3
 is-special: true
-tags: info
+tags: root
 
 = Frequently asked questions
 
@@ -59,3 +59,4 @@ Because it uses the picture you built from the other checks. It asks how you fee
 **What are the “filter questions results”?**
 
 They are a summary of your answers across the seven checks, to help you reflect on your decision and revisit anything you skipped.
+

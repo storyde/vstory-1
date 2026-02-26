@@ -204,6 +204,14 @@ title: Subscene 2
 Subscene 2 content.
 ```
 
+#### Special scene names
+
+prevScene - always goes to the previous scene.
+
+jumpScene - always goes to the scene designated by the last set-jump command.
+
+backSpecialScene - goes to the previous scene visited before entering the last visited special scene (a special scene is designated by is-special: true).
+
 ### Dialogue Formatting Guidelines
 
 Direct speech in the game should follow these formatting rules:
@@ -222,9 +230,8 @@ Me: Thank you for having me here.
 Common speakers:
 - Facilyn (The Guide)
 - Me (The Player)
-- Stranger (Harbour NPC)
 - Vendor (Harbour NPC)
-- Drawer (Harbour NPC)
+- Child (Harbour NPC)
 
 Note: This format helps maintain clarity and consistency throughout the narrative while making it easy to identify who is speaking.
 
@@ -267,7 +274,8 @@ Choice properties like `view-if`, `choose-if`, `order`, `priority`, and `frequen
 >> paragraph - attribution  
 = paragraph - heading
 --- - horizontal rule
-// + <newline> - manual line break
+<br> - line break
+<newline> - manual line break
 <blank line> - paragraph break
 ```
 

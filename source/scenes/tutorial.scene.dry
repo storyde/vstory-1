@@ -3,7 +3,7 @@ subtitle: Instructions
 order: 2
 is-special: true
 new-page: true
-tags: root, info
+tags: root
 
 = How this game works
 
@@ -22,5 +22,4 @@ tags: root, info
 • Progress (map icon): shows what you’ve done so far.
 
 • Info (info icon): shows helpful context and lets you toggle theme and save/load.
-
 
